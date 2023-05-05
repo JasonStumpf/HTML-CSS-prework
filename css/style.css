@@ -1,0 +1,114 @@
+body,html{
+    height: 85%;
+    margin: 0px;
+}
+body{
+    background-image:url("../images/tile.jpg");
+}
+.upper-image{
+    background-image:url("../images/wallpaper_2.jpg");
+    height:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    position:relative;
+}
+.title-text{
+    color:yellowgreen;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+nav li{
+    display:inline;
+    margin: 130px;
+}
+nav ul{
+    background-image:url("../images/tile.jpg");
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 97.9%;
+    text-align:left;
+    padding-top: 20px;
+}
+nav a{
+    color:red;
+    text-decoration: none;
+}
+nav a:hover{
+    color:white;
+}
+.main-articles{
+    background-color:royalblue;
+}
+.side-articles{
+    background-color:indigo;
+    text-align: center;
+}
+#main{
+    width: 75%;
+    padding-top: 20px;
+    height: 100%;
+    float:left;
+}
+#side{
+    width: 20%;
+    height: 100%;
+    float: right;
+    padding:20px;
+}
+#stage{
+    float:right;
+    height:100%;
+    border:2px solid;
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+#dog{
+    float:left;
+    height:100%;
+    border-radius:5px;
+}
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+textarea, input{
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.side-articles h1{
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    background-image:url("../images/tile.jpg");
+    height: 5vh;
+    margin-top:0px; 
+}
+footer div{
+    text-align: center;
+    color:white;
+}
+main{
+    overflow:auto;
+}
+footer hr{
+    margin-top:0px;
+    height:12px;
+    border:0px;
+}
